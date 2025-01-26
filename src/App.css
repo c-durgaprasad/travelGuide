@@ -10,3 +10,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.travel-guide {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 22px;
+  border-bottom: 2px solid #52bbf0;
+  width: 130px;
+  text-align: center;
+  margin-top: 25px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.ul-list {
+  list-style-type: none;
+  padding: 0px;
+}
