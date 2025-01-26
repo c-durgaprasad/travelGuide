@@ -68,7 +68,7 @@ class App extends Component {
     return (
       <ul className="ul-list">
         {guideList.map(eachPlace => (
-          <TravelPlace eachPlace={eachPlace} />
+          <TravelPlace eachPlace={eachPlace} key={eachPlace.id} />
         ))}
       </ul>
     )

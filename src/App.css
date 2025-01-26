@@ -12,8 +12,9 @@ body {
 }
 
 .bg-container {
-  background-color: #ffffff;
+  background-color: #eef4f7;
   height: 100vh;
+  overflow-y: scroll;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -37,4 +38,7 @@ body {
 .ul-list {
   list-style-type: none;
   padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

@@ -1,0 +1,24 @@
+.card-container {
+  background-color: #ffffff;
+  height: 90px;
+  width: 300px;
+  margin-right: 10px;
+}
+.place-name {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+  padding-left: 7px;
+  margin: 0px;
+}
+.place-image {
+  width: 300px;
+  margin-top: 10px;
+}
+.desc {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #334155;
+  padding-left: 7px;
+}
